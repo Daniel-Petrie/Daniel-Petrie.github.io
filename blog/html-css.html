@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="nav-name">Daniel Petrie</h1>
+       <nav>
+         <ul class="nav-links">
+           <li><a href="index.html">Home</a></li>
+           <li><a href="blog.html">Blog</a></li>
+         </ul>
+       </nav>
+     </div>
+     </header>
+     <section class="blog-posts">
+      <h1 class="blog-title green-text">What are the best practices associated with using classes vs. ids?</h1>
+     
+     <p class="blog-paragraph">
+      Classes and Ids are very similiar, but have some major differences between them. The main use for both of these, are to select HTML elements. The way 
+      they go about doing that, is slightly different though. Classes allow you to select multiple HTML elements the same time, but IDs are unique, so they can only
+      select one. Once you have selected an element using either a class or ID, you can reference it in CSS and apply CSS to it.
+     </p>
+     <p class="blog-paragraph">
+      In order to select an HTML element using the class system, you have to write class="" inside the HTML tag. You can then call the class whatever you want,
+      providing it starts with an underscore (_), a hyphen (-), or a letter. You may use digits in the class name, just not at the start. It is very similiar
+      applying an ID to and HTML element, instead of writing class="", you must instead write id="".
+     </p>
+     <p class="blog-paragraph">
+      The other main difference between IDs and classes, is how you select them in CSS in order to apply styles to them. If you want to select your class in CSS 
+      you would do this by putting a full stop (.) before the class name. For example .green-text{ }. In order to do this with an ID, you would instead use 
+      a hashtag (#). For example. #green-text{ }.
+     </p>
+     <p class="blog-paragraph">
+      In conclusion, you can see that there are many similiarities between classes and IDs, but they also have some clear differences. The main thing to takeaway from this
+      is that it is always best practice to only use an ID when you want to apply a style to one element, and use classes when you want to use the same style on 
+      multiple elements. 
+     </p>
+    </section>
+    </body>
+    </html>
