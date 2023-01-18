@@ -124,9 +124,39 @@ INDIVIDUAL BLOG POST CSS
 .blog-posts {
   background-color: #F0EAD2;
   height: 93vh;
-  width: 100vw;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+@media (max-width: 768px) {
+  .main-text{
+    font-size: 48px;
+    padding: 20px;
+  }
+
+    .sub-text {
+      font-size: 24px;
+      padding: 20px;
+    }
+
+  .nav-name{
+    font-size: 24px;
+  }
+
+  .blog-title{
+    font-size: 48px; 
+}
+
+.blog-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-posts {
+  height: auto;
+}
+
 }
