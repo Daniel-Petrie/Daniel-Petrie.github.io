@@ -121,9 +121,15 @@ INDIVIDUAL BLOG POST CSS
 }
 
 
+.container{
+  height: 80vh;
+  background-color: #F0EAD2;
+}
+
 .blog-posts {
   background-color: #F0EAD2;
-  height: 93vh;
+  height: auto;
+  width: 100vw;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -155,8 +161,8 @@ INDIVIDUAL BLOG POST CSS
   justify-content: center;
 }
 
-.blog-posts {
-  height: auto;
+.container{
+  height: 200vh;
 }
 
 }
