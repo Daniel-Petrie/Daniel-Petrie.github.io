@@ -117,7 +117,8 @@ INDIVIDUAL BLOG POST CSS
 
 .blog-paragraph{
   padding: 24px 0px;
-  max-width: 50vw;
+  max-width: 1200px;
+  width: 100%;
 }
 
 
@@ -135,6 +136,46 @@ INDIVIDUAL BLOG POST CSS
   flex-direction: column;
   align-items: center;
 }
+
+.core{
+  float: right;
+  height: 70vh;
+  width: 45%;
+  border: #ADC178 solid 8px;
+ border-radius: 16px;
+}
+
+
+.tech {
+  float: left;
+  height: 70vh;
+  width: 45%;
+  border: #ADC178 solid 8px;
+  border-radius: 16px;
+  padding: 24px
+}
+
+.wrapper {
+ width: 100%;
+ max-width: 1200px;
+}
+
+.core-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+}
+
+.tech-text {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+}
+
+
 
 @media (max-width: 768px) {
   .main-text{
