@@ -132,6 +132,10 @@ MAIN BLOG CSS HERE
   border: #ADC178 solid 8px;
   border-radius: 16px;
   padding: 24px;
+  line-height: 56px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 }
 
 .wrapper {
