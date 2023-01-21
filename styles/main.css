@@ -111,6 +111,34 @@ MAIN BLOG CSS HERE
   color:#ADC178
 }
 
+.core{
+  float: right;
+  height: 70vh;
+  width: 45%;
+  border: #ADC178 solid 8px;
+ border-radius: 16px;
+ padding: 24px;
+ line-height: 56px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+
+.tech {
+  float: left;
+  height: 70vh;
+  width: 45%;
+  border: #ADC178 solid 8px;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.wrapper {
+ width: 100%;
+ max-width: 1200px;
+}
+
 /* 
 INDIVIDUAL BLOG POST CSS  
 */
@@ -137,27 +165,11 @@ INDIVIDUAL BLOG POST CSS
   align-items: center;
 }
 
-.core{
-  float: right;
-  height: 70vh;
-  width: 45%;
-  border: #ADC178 solid 8px;
- border-radius: 16px;
-}
-
-
-.tech {
-  float: left;
-  height: 70vh;
-  width: 45%;
-  border: #ADC178 solid 8px;
-  border-radius: 16px;
-  padding: 24px
-}
-
-.wrapper {
- width: 100%;
- max-width: 1200px;
+.blog-post-title {
+  font-size: 8;
+  max-width: 1200px;
+  width: 100%;
+  padding-top: 24px;
 }
 
 .core-text {
@@ -174,6 +186,7 @@ INDIVIDUAL BLOG POST CSS
   justify-content: center;
   font-size: 48px;
 }
+
 
 
 
