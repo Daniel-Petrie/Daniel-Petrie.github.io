@@ -155,8 +155,9 @@ INDIVIDUAL BLOG POST CSS
 
 
 .container{
-  height: 80vh;
   background-color: #F0EAD2;
+  max-width: 1200px;
+  width:100%
 }
 
 .blog-posts {
@@ -189,6 +190,16 @@ INDIVIDUAL BLOG POST CSS
   align-items: center;
   justify-content: center;
   font-size: 48px;
+}
+
+.blog-image {
+  width: 800px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+
 }
 
 

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript DOM</title>
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="nav-name">Daniel Petrie</h1>
+       <nav>
+         <ul class="nav-links">
+           <li><a href="/index.html">Home</a></li>
+           <li><a href="/blog.html">Blog</a></li>
+         </ul>
+       </nav>
+     </div>
+     </header>
+     <section class="blog-posts">
+
+      <h2 class="blog-title green-text">JavaScript DOM</h2>
+
+      <div class="container">
+      <h3 class="green-text blog-post-title"> JavaScript and its relationship to HTML and CSS</h3>
+
+      <p class="blog-paragraph"> Alongside HTML and CSS, JavaScript is one of the core building blocks of a website. If we go back and remember the analogy from last week where we had HTML as the bricks (structure) of the house, and CSS as the paint/decoration (the design) of the house, we can also add JavaScript into this analogy. JavaScript adds functionality to the website, so for example, it would be like adding the lights that turn off or on, or adding a microwave that allows you to heat up the food. When you have all three together, you get a structurally solid, well designed, and functional website/house. </p>
+      
+      
+      <h3 class="green-text blog-post-title">Control Flow and Loops </h3>
+      
+      <p class="blog-paragraph">The control flow is the order in which the code is executed. In terms of JavaScript the code is executed from top to bottom. This is the default order of the control flow, however the flow can be interrupted and changed by conditionals and loops. There are many types of loops in JavaScript, but the most common type is a for loop. The for loop works by iterating over the loop a set number of times, and executing the code inside of it. An example of this would be getting ready for a football game. The control flow would dictate the order in which you do things to prepare for this. For example you would make sure you get enough sleep, make a nutritous breakfast, pack your bag, drive to the match and then stretch your muscles. This may be interrupted by loops, for example the pack your bag command could have an if statement that it loops through, checking you have all the required items like shinpads, and if not it tells you to grab them. This proccess repeats until you have everything, and then moves on to the next step 
+      
+      <h3 class="green-text blog-post-title">Describe what the DOM is and an example of how you might interact with it</h3>
+      
+      <p class="blog-paragraph">The DOM (document object model) is a tree that is made up of objects. The DOM is created when the website is loaded, and every website has one. An example of this can be found underneath this paragraph. 
+      
+      The DOM is a super powerful tool that website developers will be using a lot. Using JavaScript you can access and change any HTML element on the page. This allows you to create some very functional and stylish websites. There are a few methods you can use to tap into the DOM using JavaScript. One of tapping into is by searching for a specific HTML element by ID. You could do this by typing document.getElementByID(‘name of ID’) You could then take this element example change the text of it to green. You can create a CSS class called green-text with the color:green property and apply it by  document.getElementByID(‘name of ID’).classList.add(‘green-text’) <img src="/images/dom tree.jpg" alt="an example of a dom tree" class="blog-image"></p>
+      
+      
+      <h3 class="green-text blog-post-title"> Explain the difference between accessing data from arrays and objects</h3>
+      
+      <p class="blog-paragraph"> Arrays and objects are two similar things in JavaScript, but they have their differences in order to access data between them. In order to create an array of data you would use the square brackets. For example you could create an array like this const bestFootballPlayers = [Ronaldo, Messi, Pele, Cruyff, Zidane] In order to access the data in it, you can use indexes in order to target a specific element. For example, bestFootballPlayers[2] would give you an output of Pele. Remember that arrays start counting from 0. 
+      
+      In order to create an object, you would create it like the picture down below. When trying to access data inside of an object you would use the dot notation. For example cristianoRonaldo.goalsScored would access the value of 819. <img class="blog-image" src="/images/javascriptObject.png" alt="an example of a JavaScript object"></p>
+      
+      
+       
+      
+      
+      
+       <h3 class="green-text blog-post-title"> Explain what functions are and why they are helpful</h3>
+      
+       <p class="blog-paragraph"> JavaScript functions are super helpful blocks of code that execute a task after being called. This is important as it allows you to reuse large chunks of code and execute it with one line, allowing you to easily repeat code without having to re-write it every time you want to use it. In order to create a function, you start with the keyword 'function', the name of the function, brackets (that take in a paramater) and then the curly braces ({}). Then whatever code you write inside the curly braces will be executed when you call the function. An example of a function might look like this.
+      
+      The function then has to be called in order for the program to know when to run it. You can do this by writing the name of the function, followed by an open and closed set of brackets. Some functions are a bit more advanced and take in inputs, and in this case you would pass the inputs inside of the open and closed brackets. <img src="/images/functionExample.png" alt="an example of a function" class="blog-image"> </p>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+
+
+
+      
+
+     </section>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </body>
+</html>
