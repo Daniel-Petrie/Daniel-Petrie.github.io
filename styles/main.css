@@ -84,8 +84,9 @@ MAIN BLOG CSS HERE
 */
 
 .blog-title{
-  padding: 30px;
+  
   max-width: 75vw;
+  padding: 30px 12px;
 }
 
 .main-blog {
@@ -168,7 +169,7 @@ INDIVIDUAL BLOG POST CSS
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 0px 12px;
+  padding: 0px 16px;
 }
 
 .blog-post-title {
@@ -237,7 +238,13 @@ INDIVIDUAL BLOG POST CSS
 
 
 .blog-image {
-  width: 75%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
 }
+
 
 }
