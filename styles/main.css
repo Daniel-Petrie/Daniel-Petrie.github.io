@@ -204,6 +204,14 @@ INDIVIDUAL BLOG POST CSS
 
 }
 
+.blog-link {
+  color: #000;
+  transition: all 0.3ms ease;
+}
+
+.blog-link:hover {
+  color:#ADC178
+}
 
 
 
@@ -245,6 +253,7 @@ INDIVIDUAL BLOG POST CSS
   justify-content: center;
   padding: 48px;
 }
+
 
 
 }
