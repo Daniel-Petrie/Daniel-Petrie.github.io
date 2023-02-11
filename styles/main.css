@@ -213,6 +213,13 @@ INDIVIDUAL BLOG POST CSS
   color:#ADC178
 }
 
+.blog-divider {
+  width: 1200px;
+ background-color: #ADC178;
+  height: 4px;
+  margin: 24px;
+}
+
 
 
 @media (max-width: 768px) {
